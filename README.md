@@ -77,7 +77,7 @@ Handwritten_Digit_Recognition/
 - This document showcases the key features of the Handwritten Digit Recognition application.
 
 ### Writing Prediction
-![Handwriting Prediction](screenshots/writing-prediction.png)
+![Handwriting Prediction](screenshots/writing-predicton.png)
 - This feature allows users to draw a digit (0-9) directly on the canvas. The application uses a pre-trained machine learning model to predict the digit in real-time. The predicted number is displayed prominently below the drawing area. 
 
 ### Webcam Feature  
