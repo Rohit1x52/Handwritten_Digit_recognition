@@ -10,39 +10,43 @@
 - View analytics dashboards 📊 (accuracy, confusion matrix)
 
 ## ⚙️ Tech Stack
--Frontend/UI
-🖥️ Streamlit — Interactive web app framework
-🎨 Streamlit DrawCanvas — Digit drawing interface
--Backend & Model
-🧠 PyTorch — Deep learning model training and inference
-🧮 NumPy, OpenCV — Image preprocessing and transformations
--Data & Analytics
-📊 Pandas — CSV data logging and processing
-📈 Seaborn & Matplotlib — Data visualization
-🗃️ CSV-based logging system (extendable to SQL or NoSQL DB)
+### Frontend/UI
+- 🖥️ Streamlit — Interactive web app framework
+- 🎨 Streamlit DrawCanvas — Digit drawing interface
+### Backend & Model
+- 🧠 PyTorch — Deep learning model training and inference
+- 🧮 NumPy, OpenCV — Image preprocessing and transformations
+### Data & Analytics
+- 📊 Pandas — CSV data logging and processing
+- 📈 Seaborn & Matplotlib — Data visualization
+- 🗃️ CSV-based logging system (extendable to SQL or NoSQL DB)
 
-🌟 Features
-Real-time Digit Prediction — Draw a digit and get instant prediction with confidence.
-Prediction Logging — Every input and prediction is logged with timestamp, confidence, and feedback.
-Analytics Dashboard — Visualize model performance and user input trends.
-Confusion Analysis — Heatmap showing which digits are most often confused.
-Accuracy Monitoring — Track daily accuracy trends from feedback logs.
-Lightweight & Portable — No heavy dependencies beyond core ML and visualization libs.
+## 🌟 Features
+- Real-time Digit Prediction — Draw a digit and get instant prediction with confidence.
+- Prediction Logging — Every input and prediction is logged with timestamp, confidence, and feedback.
+- Analytics Dashboard — Visualize model performance and user input trends.
+- Confusion Analysis — Heatmap showing which digits are most often confused.
+- Accuracy Monitoring — Track daily accuracy trends from feedback logs.
+- Lightweight & Portable — No heavy dependencies beyond core ML and visualization libs.
 
-📁 Project Structure
+## 📁 Project Structure
 
 Handwritten_Digit_Recognition/
 ├── app/
-│   ├── __pycache__/
-│   ├── __init__.py
-│   ├── app.py
-│   ├── logger.py
-│   ├── main.py
-│   └── utils.py
+│ ├── pycache/
+│ ├── init.py
+│ ├── app.py
+│ ├── logger.py
+│ ├── main.py
+│ └── utils.py
 ├── notebooks/
-│   ├── models/
-│   │   └── mnist_cnn.h5
-│   └── data_prep.ipynb
+│ ├── models/
+│ │ └── mnist_cnn.h5
+│ └── data_prep.ipynb
+├── screenshots/
+│ ├── Feedback.png
+│ ├── Webcam.png
+│ └── writing-prediction.png
 ├── venv/
 ├── .gitignore
 ├── feedback_logs.csv
@@ -50,7 +54,7 @@ Handwritten_Digit_Recognition/
 └── requirements.txt
 
 
-🧾 Analytics & Logging
+## 🧾 Analytics & Logging
 Every user interaction is logged in data/feedback_logs.csv with columns:
 timestamp	input_type	digit_predicted	confidence	digit_actual
 2025-10-23T14:03:12	canvas	7	0.982	7
