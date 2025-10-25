@@ -1,6 +1,6 @@
 # 🧠 Handwritten Digit Recognition
 
-##🧩 Overview
+## 🧩 Overview
 -This project demonstrates an end-to-end deep learning pipeline for recognizing handwritten digits similar to the MNIST dataset.
 -Built using TensorFlow CNNs and a sleek Streamlit interface, it allows you to:
 - Draw digits on a canvas ✍️  
@@ -9,7 +9,7 @@
 - Log feedback for continuous model improvement 🔄  
 - View analytics dashboards 📊 (accuracy, confusion matrix)
 
-##⚙️ Tech Stack
+## ⚙️ Tech Stack
 -Frontend/UI
 🖥️ Streamlit — Interactive web app framework
 🎨 Streamlit DrawCanvas — Digit drawing interface
