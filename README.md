@@ -30,7 +30,7 @@
 - Lightweight & Portable — No heavy dependencies beyond core ML and visualization libs.
 
 ## 📁 Project Structure
-
+```
 Handwritten_Digit_Recognition/
 ├── app/
 │ ├── pycache/
@@ -52,13 +52,13 @@ Handwritten_Digit_Recognition/
 ├── feedback_logs.csv
 ├── README.md
 └── requirements.txt
-
+```
 
 ## 🧾 Analytics & Logging
-Every user interaction is logged in data/feedback_logs.csv with columns:
-timestamp	input_type	digit_predicted	confidence	digit_actual
-2025-10-23T14:03:12	canvas	7	0.982	7
-2025-10-23T14:05:47	canvas	3	0.753	5
+- Every user interaction is logged in data/feedback_logs.csv with columns:
+- timestamp	            input_type	  digit_predicted	 confidence 	digit_actual
+- 2025-10-23T14:03:12	  canvas	         7	           0.982	       7
+- 2025-10-23T14:05:47	  canvas	         3	           0.753	       5
 
 ## 📈 Dashboard
 
