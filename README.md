@@ -94,4 +94,4 @@ Handwritten_Digit_Recognition/
 - Passionate about Machine/Deep Learning, AI Systems, Computer Vision, and DSA
 - 📧 Contact Me
 
-Copyright (c) 2024 Rohit
+Copyright (c) 2025 Rohit
