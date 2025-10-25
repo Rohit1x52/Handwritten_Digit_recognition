@@ -74,15 +74,19 @@ Handwritten_Digit_Recognition/
 - 📊 Prediction Summary Statistics
 
 ## 🖼️ Screenshots
+- This document showcases the key features of the Handwritten Digit Recognition application.
 
 ### Writing Prediction
 ![Handwriting Prediction](screenshots/writing-prediction.png)
+- This feature allows users to draw a digit (0-9) directly on the canvas. The application uses a pre-trained machine learning model to predict the digit in real-time. The predicted number is displayed prominently below the drawing area. 
 
 ### Webcam Feature  
 ![Webcam Digit Recognition](screenshots/Webcam.png)
+- The application can also capture live video feed from your webcam. You can hold a handwritten digit up to the camera, and the system will process the video frames to identify and display the recognized digit. This demonstrates the model's capability to work with real-world input.
 
 ### Feedback System
 ![User Feedback](screenshots/Feedback.png)
+- To help improve the model's accuracy, a feedback system is integrated. If a prediction is incorrect, the user can select the correct digit from a list. This feedback data can be collected and used for further training and refining the machine learning model.
 
 ## 🧑‍💻 Developer
 - Rohit Ranjan Kumar
