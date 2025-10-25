@@ -32,6 +32,24 @@ Lightweight & Portable — No heavy dependencies beyond core ML and visualizatio
 
 📁 Project Structure
 
+Handwritten_Digit_Recognition/
+├── app/
+│   ├── __pycache__/
+│   ├── __init__.py
+│   ├── app.py
+│   ├── logger.py
+│   ├── main.py
+│   └── utils.py
+├── notebooks/
+│   ├── models/
+│   │   └── mnist_cnn.h5
+│   └── data_prep.ipynb
+├── venv/
+├── .gitignore
+├── feedback_logs.csv
+├── README.md
+└── requirements.txt
+
 
 🧾 Analytics & Logging
 Every user interaction is logged in data/feedback_logs.csv with columns:
@@ -39,23 +57,34 @@ timestamp	input_type	digit_predicted	confidence	digit_actual
 2025-10-23T14:03:12	canvas	7	0.982	7
 2025-10-23T14:05:47	canvas	3	0.753	5
 
-📈 Dashboard
--Modules Used:
-pandas for loading and grouping data
-matplotlib and seaborn for plotting
-streamlit for interactivity
-Displayed Metrics:
+## 📈 Dashboard
 
-✅ Overall Accuracy
-🔥 Most Confused Digits (Heatmap)
-📅 Accuracy Over Time (Line Chart)
-📊 Prediction Summary Statistics
+**Modules Used:**
+- `pandas` for loading and grouping data
+- `matplotlib` and `seaborn` for plotting
+- `streamlit` for interactivity
 
+**Displayed Metrics:**
+- ✅ Overall Accuracy
+- 🔥 Most Confused Digits (Heatmap)
+- 📅 Accuracy Over Time (Line Chart)
+- 📊 Prediction Summary Statistics
 
-🖼️ Screenshots
+## 🖼️ Screenshots
 
+### Writing Prediction
+![Handwriting Prediction](screenshots/writing-prediction.png)
 
-👨‍💻 Author
+### Webcam Feature  
+![Webcam Digit Recognition](screenshots/Webcam.png)
+
+### Feedback System
+![User Feedback](screenshots/Feedback.png)
+
+🧑‍💻 Developer
 Rohit Ranjan Kumar
 B.Tech Computer Science, Manipal University Jaipur
-Passionate about Deep Learning, Computer Vision, and AI Product Engineering.
+Passionate about Machine/Deep Learning, AI Systems, Computer Vision, and DSA
+📧 Contact Me
+
+Copyright (c) 2024 Rohit
