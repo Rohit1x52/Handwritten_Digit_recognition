@@ -1,16 +1,15 @@
-🧠 Handwritten Digit Recognition
+# 🧠 Handwritten Digit Recognition
 
-🧩 Overview
-
-This project demonstrates an end-to-end deep learning pipeline for recognizing handwritten digits similar to the MNIST dataset.
-Built using TensorFlow CNNs and a sleek Streamlit interface, it allows you to:
+##🧩 Overview
+-This project demonstrates an end-to-end deep learning pipeline for recognizing handwritten digits similar to the MNIST dataset.
+-Built using TensorFlow CNNs and a sleek Streamlit interface, it allows you to:
 - Draw digits on a canvas ✍️  
 - Capture digits via webcam 📷  
 - Get instant predictions with confidence scores ⚡  
 - Log feedback for continuous model improvement 🔄  
 - View analytics dashboards 📊 (accuracy, confusion matrix)
 
-⚙️ Tech Stack
+##⚙️ Tech Stack
 -Frontend/UI
 🖥️ Streamlit — Interactive web app framework
 🎨 Streamlit DrawCanvas — Digit drawing interface
@@ -81,10 +80,10 @@ timestamp	input_type	digit_predicted	confidence	digit_actual
 ### Feedback System
 ![User Feedback](screenshots/Feedback.png)
 
-🧑‍💻 Developer
-Rohit Ranjan Kumar
-B.Tech Computer Science, Manipal University Jaipur
-Passionate about Machine/Deep Learning, AI Systems, Computer Vision, and DSA
-📧 Contact Me
+## 🧑‍💻 Developer
+- Rohit Ranjan Kumar
+- B.Tech Computer Science, Manipal University Jaipur
+- Passionate about Machine/Deep Learning, AI Systems, Computer Vision, and DSA
+- 📧 Contact Me
 
 Copyright (c) 2024 Rohit
